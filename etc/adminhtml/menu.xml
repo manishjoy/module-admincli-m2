@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
     <menu>
-        <add id="ManishJoy_AdminCli::elements" title="Admin Command Line" module="ManishJoy_AdminCli" parent="Magento_Backend::system_tools" action="mjacli/index" sortOrder="60" resource="ManishJoy_AdminCli::elements"/>
+        <add id="ManishJoy_AdminCli::elements" title="Admin Command Line" module="ManishJoy_AdminCli" parent="Magento_Backend::system_tools" action="mjacli/index" sortOrder="200" resource="ManishJoy_AdminCli::elements"/>
     </menu>
 </config>
