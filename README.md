@@ -1,50 +1,87 @@
-# Mage2 Module ManishJoy AdminCli
+# Magento 2.x Extension | ManishJoy_AdminCli
 
-    ``manishjoy/module-admincli``
+    ``manishjoy/module-admincli-m2``
 
- - [Main Functionalities](#markdown-header-main-functionalities)
- - [Installation](#markdown-header-installation)
- - [Configuration](#markdown-header-configuration)
- - [Specifications](#markdown-header-specifications)
- - [Attributes](#markdown-header-attributes)
+ - [Main Functionalities](#header-main-functionalities)
+ - [Installation](#header-installation)
+ - [Screenshots](#screenshots)
+ - [Prerequisites](#prerequisites)
+ - [Support The Work](#linked-my-work)
+ - [Feedback and Support](#feedback-and-support)
 
 
 ## Main Functionalities
 
+#### This Extension allows admin user to run CLI commands from Admin Panel
+
+ - Now, no need to go through the complexities of connecting SSH/Terminal
+ - Uses `exec` php function
+ - Very easy installation and usage
+ - I recommend to use it ONLY on dev environments as it is not securely to run exec.
 
 ## Installation
-\* = in production please use the `--keep-generated` option
+#### in production please use the `--keep-generated` option
 
-### Type 1: Zip file
-
- - Unzip the zip file in `app/code/ManishJoy`
+ - Unzip the zip file in `app/code/ManishJoy/AdminCli`
  - Enable the module by running `php bin/magento module:enable ManishJoy_AdminCli`
- - Apply database updates by running `php bin/magento setup:upgrade`\*
+ - Apply database updates by running `php bin/magento setup:upgrade`
  - Flush the cache by running `php bin/magento cache:flush`
 
-### Type 2: Composer
+## Usage
 
- - Make the module available in a composer repository for example:
-    - private repository `repo.magento.com`
-    - public repository `packagist.org`
-    - public github repository as vcs
- - Add the composer repository to the configuration by running `composer config repositories.repo.magento.com composer https://repo.magento.com/`
- - Install the module composer by running `composer require manishjoy/module-admincli`
- - enable the module by running `php bin/magento module:enable ManishJoy_AdminCli`
- - apply database updates by running `php bin/magento setup:upgrade`\*
- - Flush the cache by running `php bin/magento cache:flush`
+- Navigate to **System :arrow_double_up: Tools > Admin Command Line** :arrow_double_up:
+
+## Screenshots
+
+<img src="https://i.ibb.co/2hmxfys/Admin-Command-Line.png" alt="Admin Command Line" title="Admin Command Line">
 
 
-## Configuration
+## Prerequisites
+
+### Use the following table to verify you have the correct prerequisites to install this Extension.
+
+<table>
+	<tbody>
+		<tr>
+			<th>Prerequisite</th>
+			<th>How to check</th>
+			<th>For more information</th>
+		</tr>
+	<tr>
+		<td>Apache 2.2 or 2.4</td>
+		<td>Ubuntu: <code>apache2 -v</code><br>
+		CentOS: <code>httpd -v</code></td>
+		<td><a href="http://devdocs.magento.com/guides/v2.0/install-gde/prereq/apache.html">Apache</a></td>
+	</tr>
+	<tr>
+		<td>PHP 7.1.x or higher</td>
+		<td><code>php -v</code></td>
+		<td><a href="http://devdocs.magento.com/guides/v2.0/install-gde/prereq/php-ubuntu.html">PHP Ubuntu</a><br><a href="http://devdocs.magento.com/guides/v2.0/install-gde/prereq/php-centos.html">PHP CentOS</a></td>
+	</tr>
+	<tr>
+      <td>MySQL 5.6.x</td>
+	   <td><code>mysql -u [root user name] -p</code></td>
+	   <td><a href="http://devdocs.magento.com/guides/v2.0/install-gde/prereq/mysql.html">MySQL</a></td>
+	</tr>
+   <tr>
+      <td>Magento 2.x</td>
+	   <td><code>bin/magento --version</code></td>
+	   <td><a href="https://devdocs.magento.com">Magento</a></td>
+	</tr>
+</tbody>
+</table>
 
 
+## Liked My Work?
 
+<a href="https://www.paypal.me/manishjoy" rel="nofollow"><img height="36" src="https://manishjoy.github.io/img/coffee-btn-image.png" border="0" alt="Buy Me a Coffee" data-canonical-src="https://manishjoy.github.io/img/coffee-btn-image.png" style="max-width:100%;"></a>
 
-## Specifications
+--- OR ---
 
+<a href='https://www.patreon.com/manishjoy' target='_blank'><img src='https://i.ibb.co/rHdTFtj/patreon-btn.jpg' width='200' border='0' alt='SUPPORT ME ON PATREON' /></a>
 
+## Feedback and Support
 
+ - <a href="https://manishjoy.github.io/">https://manishjoy.github.io</a>
 
-## Attributes
-
-
+ - <a href="mailto:manishjoy1993@hotmail.com">manishjoy1993@hotmail.com</a>
