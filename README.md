@@ -2,12 +2,12 @@
 
     ``manishjoy/module-admincli-m2``
 
- - [Main Functionalities](#header-main-functionalities)
+ - [Main Functionalities](#main-functionalities)
  - [Screenshots](#screenshots)
- - [Installation](#header-installation)
+ - [Installation](#installation)
  - [Usage](#usage)
  - [Prerequisites](#prerequisites)
- - [Support The Work](#linked-my-work)
+ - [Support The Work](#liked-my-work)
  - [Feedback and Support](#feedback-and-support)
 
 
