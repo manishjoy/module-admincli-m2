@@ -1,22 +1,25 @@
 {
-    "name": "manishjoy/module-admincli",
-    "description": "",
+    "name": "manishjoy/module-admincli-m2",
+    "description": "Magento 2 Extension to allow admin user to run CLI commands from Admin Panel",
     "type": "magento2-module",
-    "license": "proprietary",
+    "version": "dev-master",
+    "license": [
+        "OSL-3.0"
+    ],
     "authors": [
         {
-            "email": "info@mage2gen.com",
-            "name": "Mage2Gen"
+            "name": "Manish Joy",
+            "email": "manishjoy1993@hotmail.com"
         }
     ],
     "minimum-stability": "dev",
     "require": {},
     "autoload": {
-        "psr-4": {
-            "ManishJoy\\AdminCli\\": ""
-        },
         "files": [
             "registration.php"
-        ]
+        ],
+        "psr-4": {
+            "ManishJoy\\AdminCli\\": ""
+        }
     }
 }
