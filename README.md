@@ -29,7 +29,8 @@
 
 ## Usage
 
-- Navigate to **System :arrow_double_up: Tools > Admin Command Line** :arrow_double_up:
+- Navigate to **System :arrow_right: Tools :arrow_right: Admin Command Line**
+- Enter your password and the Magento command and then click **_Enter_**
 
 ## Screenshots
 
