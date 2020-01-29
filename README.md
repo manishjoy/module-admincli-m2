@@ -3,8 +3,9 @@
     ``manishjoy/module-admincli-m2``
 
  - [Main Functionalities](#header-main-functionalities)
- - [Installation](#header-installation)
  - [Screenshots](#screenshots)
+ - [Installation](#header-installation)
+ - [Usage](#usage)
  - [Prerequisites](#prerequisites)
  - [Support The Work](#linked-my-work)
  - [Feedback and Support](#feedback-and-support)
@@ -19,6 +20,10 @@
  - Very easy installation and usage
  - I recommend to use it ONLY on dev environments as it is not securely to run exec.
 
+## Screenshots
+
+<img src="https://i.ibb.co/2hmxfys/Admin-Command-Line.png" alt="Admin Command Line" title="Admin Command Line">
+
 ## Installation
 #### in production please use the `--keep-generated` option
 
@@ -31,11 +36,6 @@
 
 - Navigate to **System :arrow_right: Tools :arrow_right: Admin Command Line**
 - Enter your password and the Magento command and then click **_Enter_**
-
-## Screenshots
-
-<img src="https://i.ibb.co/2hmxfys/Admin-Command-Line.png" alt="Admin Command Line" title="Admin Command Line">
-
 
 ## Prerequisites
 
