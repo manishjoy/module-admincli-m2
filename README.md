@@ -36,6 +36,7 @@
 
 - Navigate to **System :arrow_right: Tools :arrow_right: Admin Command Line**
 - Enter your password and the Magento command and then click **_Enter_**
+- To know more about Magento 2.x commands, <a href="https://devdocs.magento.com/guides/v2.3/config-guide/cli/config-cli-subcommands.html">visit</a>
 
 ## Prerequisites
 
