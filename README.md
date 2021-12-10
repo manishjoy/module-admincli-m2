@@ -84,6 +84,10 @@
 
 ## Feedback and Support
 
- - <a href="https://manishjoy.github.io/">https://manishjoy.github.io</a>
+ - <a href="https://www.manishjoy.com/">https://www.manishjoy.com</a>
 
- - <a href="mailto:manishjoy1993@hotmail.com">manishjoy1993@hotmail.com</a>
+ - <a href="mailto:support@manishjoy.com">support@manishjoy.com</a>
+
+## Tutorials and Blogs
+
+ - <a href="https://blog.manishjoy.com/magento-development-guide/">https://blog.manishjoy.com/magento-development-guide/</a>
